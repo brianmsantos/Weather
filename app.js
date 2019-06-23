@@ -20,7 +20,7 @@ window.addEventListener('load', ()=>{
                 return response.json()
             })
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 const{temperature, summary} = data.currently;
                 //Set DOM elements from the API
                 temperatureDegree.textContent = temperature;
